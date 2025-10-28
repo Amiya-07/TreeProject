@@ -38,13 +38,21 @@ npm start
 ## 🌳 Project Structure
 
 TreeProject/
+
 ├── public/ # Static assets
+
 ├── src/ # Source files
+
 │ ├── components/ # React components
+
 │ ├── assets/ # Images or icons
+
 │ ├── App.js # Root component
+
 │ └── index.js # Entry point
+
 ├── package.json # Project metadata and dependencies
+
 └── README.md # Project documentation 
 
 
@@ -61,6 +69,7 @@ Add dark/light mode toggle
 ## 👨‍💻 Author
 
 Amiya Ranjan Sing Nayak
+
 GitHub: Amiya-07
 
 
