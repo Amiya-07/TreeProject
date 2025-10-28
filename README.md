@@ -35,22 +35,22 @@ npm start
 ```
 
 
-## 🧩 Project Structure
+## 🌳 Project Structure
 
 TreeProject/
-│
-├── public/                # Static assets
-├── src/                   # Source files
-│   ├── components/        # React components
-│   ├── assets/            # Images or icons
-│   ├── App.js             # Root component
-│   └── index.js           # Entry point
-│
-├── package.json           # Project metadata and dependencies
-└── README.md              # Project documentation
+├── public/ # Static assets
+├── src/ # Source files
+│ ├── components/ # React components
+│ ├── assets/ # Images or icons
+│ ├── App.js # Root component
+│ └── index.js # Entry point
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation 
 
 
-🧠 Future Improvements
+
+
+## 🧠 Future Improvements
 
 Add drag-and-drop node editing
 
@@ -58,7 +58,7 @@ Implement save/load tree functionality
 
 Add dark/light mode toggle
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Amiya Ranjan Sing Nayak
 GitHub: Amiya-07
