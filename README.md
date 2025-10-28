@@ -34,7 +34,33 @@ npm start
 
 
 
-```bash
-## 👨‍💻 Author
-**Amiya Ranjan Sing Nayak**  
-GitHub: [Amiya-07](https://github.com/Amiya-07)
+
+## 🧩 Project Structure
+
+TreeProject/
+│
+├── public/                # Static assets
+├── src/                   # Source files
+│   ├── components/        # React components
+│   ├── assets/            # Images or icons
+│   ├── App.js             # Root component
+│   └── index.js           # Entry point
+│
+├── package.json           # Project metadata and dependencies
+└── README.md              # Project documentation
+
+
+🧠 Future Improvements
+
+Add drag-and-drop node editing
+
+Implement save/load tree functionality
+
+Add dark/light mode toggle
+
+👨‍💻 Author
+
+Amiya Ranjan Sing Nayak
+GitHub: Amiya-07
+
+
