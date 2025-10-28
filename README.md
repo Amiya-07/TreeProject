@@ -43,13 +43,13 @@ TreeProject/
 
 ├── src/ # Source files
 
-│ ├── components/ # React components
+│    ├── components/ # React components
 
-│ ├── assets/ # Images or icons
+│    ├── assets/ # Images or icons
 
-│ ├── App.js # Root component
+│    ├── App.js # Root component
 
-│ └── index.js # Entry point
+│    └── index.js # Entry point
 
 ├── package.json # Project metadata and dependencies
 
