@@ -34,7 +34,7 @@ npm start
 
 
 
-
+```bash
 ## 👨‍💻 Author
 **Amiya Ranjan Sing Nayak**  
 GitHub: [Amiya-07](https://github.com/Amiya-07)
