@@ -1,0 +1,133 @@
+:root {
+  --bg: #f8fafc;
+  --panel: #ffffff;
+  --muted: #6b7280;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, ui-sans-serif, system-ui, Arial, Helvetica, sans-serif;
+  background:  #78a894;
+  color: #111827;
+}
+
+.app-root {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 16px;
+}
+
+.header h1 {
+  margin: 0 0 6px 0;
+}
+
+.controls-panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+  flex-wrap: wrap;
+}
+
+.controls-panel button {
+  margin-right: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.controls-panel button:hover {
+  background: #e5e7eb;
+}
+
+.controls-panel .switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: 360px 1fr;
+  gap: 12px;
+  height: 70vh;
+}
+
+.editor {
+  background: var(--panel);
+  padding: 12px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.editor textarea {
+  width: 100%;
+  height: calc(100% - 40px);
+  resize: vertical;
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  font-family: monospace;
+}
+
+.viewer {
+  background: var(--panel);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+  min-height: 500px;
+}
+
+.status {
+  margin-top: 8px;
+}
+
+.error {
+  color: #ef4444;
+}
+
+.msg {
+  color: #059669;
+}
+
+.footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: var(--muted);
+}
+
+/* dark mode */
+.dark body,
+.dark :root {
+  --bg: #0b1220;
+  --panel: #0f1724;
+}
+
+.dark .controls-panel button {
+  background: #0b1220;
+  color: #fff;
+  border-color: #1f2937;
+}
+
+.dark .editor,
+.dark .viewer {
+  background: #0f1724;
+  color: #fff;
+}
+
+.dark textarea {
+  background: #1e293b;
+  color: #fff;
+}
+
+/* small screens */
+@media (max-width: 800px) {
+  .main-grid {
+    grid-template-columns: 1fr;
+    height: 60vh;
+  }
+}
