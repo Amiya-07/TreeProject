@@ -56,20 +56,3 @@ TreeProject/
 └── README.md # Project documentation 
 
 
-
-
-## 🧠 Future Improvements
-
-Add drag-and-drop node editing
-
-Implement save/load tree functionality
-
-Add dark/light mode toggle
-
-## 👨‍💻 Author
-
-Amiya Ranjan Sing Nayak
-
-GitHub: Amiya-07
-
-
